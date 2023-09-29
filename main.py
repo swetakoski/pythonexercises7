@@ -32,6 +32,42 @@
 #     print(name)
 
 
+#question 3
+# airport_dict= {}
+# while True:
+#   user_input= input("Do you want to enter a new airport, fetch the information on existing airport or quit?:  ")
+#   if user_input == "New".lower():
+#       airport_name = input("Enter the name of the airport: ")
+#       icao = input("Enter the corresponding ICAO code: ")
+#       airport_dict[icao]=airport_name
+#       print(f"{airport_name} with ICAO code ({icao}) added successfully!")
+#
+#   elif user_input == "Fetch".lower():
+#       icao= input("Enter the ICAO code of the airport you want to fetch: ")
+#       if icao in airport_dict:
+#         print(f"The airport with ICAO code {icao} is {airport_dict[icao]}.")
+#   elif user_input=="quit":
+#     print("Bye")
+#     break
+#
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 thisdict = {
       "name": "Indira Ghandi International Airport",
